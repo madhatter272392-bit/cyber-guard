@@ -1,0 +1,22 @@
+name: cyber_guard
+description: "All-in-one mobile cybersecurity and network audit suite."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  crypto: ^3.0.3       # Cryptographic hashing (SHA-256, MD5, HMAC)
+  encrypt: ^5.0.3      # AES-256 symmetric encryption
+  intl: ^0.19.0        # Date formatting for SIEM logs
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
